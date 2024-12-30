@@ -73,6 +73,38 @@
     align-self: flex-end;
 }
 
+.section-four {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 64px 128px;
+}
+
+.inner-section-four {
+    background-color: #3882F6;
+    padding: 64px 64px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.call-to-action {
+    font-size: 32px;
+    color: white
+}
+
+.subtext {
+    color: #e5e7eb9e
+}
+
+.footer {
+    background-color: #1F2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 32px;
+    color: #e5e7eb9e
+}
+
 ul {
     list-style: none;
     padding: 0px;
@@ -96,6 +128,11 @@ button {
     background-color: #3882F6;
     padding: 8px 32px;
     border-radius: 10px;
-    border: 0px;
+    border-width: 0px;
     color: white;
+}
+
+#button {
+    border-width: 3px;
+    border-color: white;
 }
